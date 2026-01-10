@@ -28,19 +28,20 @@ def funcionRestar():
     print("Esta es la resta")
     num1 = int(input("Ingrese el numero 1: "))
     num2 = int(input("Ingrese el numero 2: "))
-    print("La suma es: "+ num1 - num2)
-
+    resta = num1 - num2
+    print("La resta es: "+  str(resta))
 
 def funcionMultiplicar():
     print("Esta es la multiplicación")
     num1 = int(input("Ingrese el numero 1: "))
     num2 = int(input("Ingrese el numero 2: "))
-    print("La suma es: "+ num1 * num2)
+    mult = num1 * num2
+    print("La multiplicacion es: "+  str(mult))
 
 def funcionDividir():
     print("Esta es la división")
     num1 = int(input("Ingrese el numero 1: "))
     num2 = int(input("Ingrese el numero 2: "))
-    print("La suma es: "+ num1 / num2)
-
+    div = num1/num2
+    print("La división es: "+  str(div))
 main()
