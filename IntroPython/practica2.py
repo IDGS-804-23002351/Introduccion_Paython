@@ -1,9 +1,10 @@
 def main():
     
-    print("Este es el menu")
-    print("1.Suma\n2.Resta\n3.Multiplica\n4.Dividir\n5.Salir")
-    num = int(input("Ingrese el numero de su eleccion: "))
+    num = 0
     while num != 5:
+        print("Este es el menu")
+        print("1.Suma\n2.Resta\n3.Multiplica\n4.Dividir\n5.Salir")
+        num = int(input("Ingrese el numero de su eleccion: "))
         if num == 1:
             funcionSumar()
         elif num == 2:
